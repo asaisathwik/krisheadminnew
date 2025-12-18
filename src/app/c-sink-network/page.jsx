@@ -1,6 +1,7 @@
 "use client";
 import ArtisanProSection from "./sections/ArtisanProSection";
 import BioCharProducerSection from "./sections/BioCharProducerSection";
+import SupervisorSection from "./sections/SupervisorSection";
 import FarmSection from "./sections/FarmSection";
 import KontikkiSection from "./sections/KontikkiSection";
 import TrainingsSection from "./sections/TrainingsSection";
@@ -18,7 +19,9 @@ export default function CSinkNetworkPage() {
 
         <div className="space-y-4">
           <ArtisanProSection />
+          <SupervisorSection />
           <BioCharProducerSection />
+          
           <FarmSection />
           <KontikkiSection />
           <TrainingsSection />
